@@ -153,6 +153,23 @@ public partial class OrdersController : Controller
 ```
 
 
+
+### Optional Optimization
+
+Caching controller helpers avoid repeated allocations. This is a micro-optimization and usually not necessary in most scenarios. It can make sense in hot views where you call the same helper many times (for example, in a loop), but the savings are typically negligible compared to database access, rendering, or network costs. If you don’t measure a problem, skip this.
+
+```razorhtmldialect
+@{
+    var ordersUrlHelper = Url.Orders;
+}
+
+@for (var i = 0; i < Model.Orders.Count; i++)
+{
+    var order = Model.Orders[i];
+    <a class="btn btn-sm btn-outline-secondary" href="@ordersUrlHelper.Details(order.Id)">Details</a>
+}
+```
+
 #### Generated surface
 
 ```csharp

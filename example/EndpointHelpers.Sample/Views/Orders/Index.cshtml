@@ -7,6 +7,7 @@
     var customer = (string)(ViewData["Customer"] ?? "");
     var q = (string)(ViewData["Query"] ?? "");
     var recentDays = ViewData["RecentDays"]?.ToString();
+    var ordersUrlHelper = Url.Orders;
 }
 
 <div class="d-flex justify-content-between align-items-center">
@@ -36,7 +37,7 @@
             </div>
             <div class="col-md-3 d-flex gap-2">
                 <button class="btn btn-outline-secondary" type="submit">Filter</button>
-                <a class="btn btn-outline-secondary" href="@Url.Orders.Index()">Reset</a>
+                <a class="btn btn-outline-secondary" href="@ordersUrlHelper.Index()">Reset</a>
             </div>
         </div>
     </form>
@@ -44,15 +45,15 @@
 
 <div class="mt-4">
     <div class="d-flex flex-wrap gap-2">
-        <a class="btn btn-sm btn-outline-primary" href="@Url.Orders.Recent(3)">Recent 3 days</a>
-        <a class="btn btn-sm btn-outline-primary" href="@Url.Orders.Recent(7)">Recent 7 days</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.ByStatus("Open")'>Open</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.ByStatus("Processing")'>Processing</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.ByStatus("Shipped")'>Shipped</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.ByCustomer("Northwind")'>Northwind</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.ByCustomer("Contoso")'>Contoso</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.Export("csv")'>Export CSV</a>
-        <a class="btn btn-sm btn-outline-primary" href='@Url.Orders.Export("json")'>Export JSON</a>
+        <a class="btn btn-sm btn-outline-primary" href="@ordersUrlHelper.Recent(3)">Recent 3 days</a>
+        <a class="btn btn-sm btn-outline-primary" href="@ordersUrlHelper.Recent(7)">Recent 7 days</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.ByStatus("Open")'>Open</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.ByStatus("Processing")'>Processing</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.ByStatus("Shipped")'>Shipped</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.ByCustomer("Northwind")'>Northwind</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.ByCustomer("Contoso")'>Contoso</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.Export("csv")'>Export CSV</a>
+        <a class="btn btn-sm btn-outline-primary" href='@ordersUrlHelper.Export("json")'>Export JSON</a>
     </div>
 </div>
 
@@ -78,10 +79,10 @@
                 <td>@order.Total.ToString("C")</td>
                 <td>@order.CreatedUtc.ToString("u")</td>
                 <td class="d-flex flex-wrap gap-2">
-                    <a class="btn btn-sm btn-outline-secondary" href='@Url.Orders.Details(order.Id, "index")'>Details</a>
-                    <a class="btn btn-sm btn-outline-secondary" href="@Url.Orders.Edit(order.Id)">Edit</a>
-                    <a class="btn btn-sm btn-outline-danger" href="@Url.Orders.Delete(order.Id)">Delete</a>
-                    <a class="btn btn-sm btn-outline-secondary" href="@Url.Orders.Clone(order.Id)">Clone</a>
+                    <a class="btn btn-sm btn-outline-secondary" href='@ordersUrlHelper.Details(order.Id, "index")'>Details</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="@ordersUrlHelper.Edit(order.Id)">Edit</a>
+                    <a class="btn btn-sm btn-outline-danger" href="@ordersUrlHelper.Delete(order.Id)">Delete</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="@ordersUrlHelper.Clone(order.Id)">Clone</a>
                     <a class="btn btn-sm btn-outline-secondary" href='@Links.Orders.GetDetailsPath(order.Id, "linkgen")'>LinkGenerator</a>
                     <a class="btn btn-sm btn-outline-secondary" href='@Links.Orders.GetDetailsPath(Context, order.Id, "http-context")'>LinkGenerator + HttpContext</a>
                 </td>
