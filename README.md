@@ -34,7 +34,7 @@ Add the NuGet package:
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="EndpointHelpers" Version="1.0.5"/>
+  <PackageReference Include="EndpointHelpers" Version="2.0.0"/>
 </ItemGroup>
 ```
 
