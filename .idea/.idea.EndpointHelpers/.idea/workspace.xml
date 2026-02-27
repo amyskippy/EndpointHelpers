@@ -16,23 +16,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c504c9f-27e2-4065-9e4b-647bd2aaeae6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Views/Users/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Views/Users/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Models/AdminUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EndpointHelpers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EndpointHelpers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EndpointHelpers/ControllerGeneratorBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EndpointHelpers/ControllerGeneratorBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Areas/Admin/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Views/Products/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/example/EndpointHelpers.Sample/Views/Products/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EndpointHelpers/EndpointHelpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/EndpointHelpers/EndpointHelpers.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EndpointHelpers/LinkGeneratorGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EndpointHelpers/LinkGeneratorGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EndpointHelpers/UrlHelperGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/EndpointHelpers/UrlHelperGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/EndpointHelpers.Tests/LinkGeneratorGeneratorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/EndpointHelpers.Tests/LinkGeneratorGeneratorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/EndpointHelpers.Tests/UrlHelperGeneratorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/EndpointHelpers.Tests/UrlHelperGeneratorTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/EndpointHelpers.Tests/ViewGeneratorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/EndpointHelpers.Tests/ViewGeneratorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/EndpointHelpers.Tests/EndpointHelpers.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/EndpointHelpers.Tests/EndpointHelpers.Tests.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +34,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="11" />
+    <option name="cachedIndexableFilesCount" value="9" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -71,19 +62,19 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a9277c765bab5aee65e9d250d2a51ff0966184bb838ff19b38e87ecd167d/IParameterSymbol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c0e3d2fe76db36d3f65bacad1b619c3e0a7323f40bb5f45a0ebfff93a4e8dce/SymbolDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/example/EndpointHelpers.Sample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/EndpointHelpers/EndpointHelpers.LinkGeneratorGenerator/LinkGeneratorExtensions.g.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/EndpointHelpers/EndpointHelpers.RedirectToActionGenerator/RedirectToActionControllers.g.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/EndpointHelpers/EndpointHelpers.UrlHelperGenerator/Attributes.g.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/EndpointHelpers/EndpointHelpers.UrlHelperGenerator/Microsoft.CodeAnalysis.EmbeddedAttribute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/EndpointHelpers/EndpointHelpers.UrlHelperGenerator/UrlHelperExtensions.g.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/EndpointHelpers/ControllerGeneratorBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/EndpointHelpers/LinkGeneratorGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/EndpointHelpers/UrlHelperGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/EndpointHelpers/EndpointHelpers.ViewGenerator/ViewHelpers.g.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/99388C7491BDF89BB75FB827/Microsoft.AspNetCore.App.SourceGenerators/Microsoft.AspNetCore.SourceGenerators.PublicProgramSourceGenerator/PublicTopLevelProgram.Generated.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -109,7 +100,7 @@
     "cf08f83a-9f7a-4be8-8c08-341d1ac42e25.executor": "Debug",
     "d74964df-8abf-4130-b992-0130f266c108.executor": "Debug",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/gumbarros/RiderProjects/EndpointHelpers/AGENTS.md",
+    "last_opened_file_path": "/home/gumbarros/RiderProjects/EndpointHelpers/EndpointHelpers.slnx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -287,6 +278,7 @@
       <workItem from="1770811489366" duration="2299000" />
       <workItem from="1770861931931" duration="1696000" />
       <workItem from="1771414657852" duration="523000" />
+      <workItem from="1772207381783" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -448,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771423056846</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fix UrlHelperGeneratorTests case sensitive area prop">
+      <option name="closed" value="true" />
+      <created>1771427320048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1771427320048</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +477,8 @@
     <MESSAGE value="bugfixes: Cover ignored parameters and struct defaults" />
     <MESSAGE value="Add `GenerateViewHelpers` attribute and added IntelliSense support for JetBrains IDEs" />
     <MESSAGE value="Add AGENTS.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AGENTS.md" />
+    <MESSAGE value="Fix UrlHelperGeneratorTests case sensitive area prop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix UrlHelperGeneratorTests case sensitive area prop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,19 +495,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/test/EndpointHelpers.Tests/RedirectToActionGeneratorTests.cs</url>
-          <line>48</line>
-          <properties documentPath="$PROJECT_DIR$/test/EndpointHelpers.Tests/RedirectToActionGeneratorTests.cs" containingFunctionPresentation="Method 'Generates_Action_Method_With_Parameters'">
-            <startOffsets>
-              <option value="1936" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2036" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

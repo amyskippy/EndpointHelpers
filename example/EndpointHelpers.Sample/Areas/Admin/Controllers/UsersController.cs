@@ -1,4 +1,3 @@
-using EndpointHelpers;
 using EndpointHelpers.Sample.Models;
 using Microsoft.AspNetCore.Mvc;
 

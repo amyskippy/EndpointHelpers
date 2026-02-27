@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using EndpointHelpers;
 using EndpointHelpers.Sample.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,16 +6,17 @@ namespace EndpointHelpers.Sample.Controllers;
 
 [GenerateLinkGenerator]
 [GenerateRedirectToAction]
+[GenerateViewHelpers]
 public partial class HomeController : Controller
 {
     public IActionResult Index()
     {
-        return View();
+        return IndexView();
     }
     
     public IActionResult Privacy()
     {
-        return View();
+        return PrivacyView();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
